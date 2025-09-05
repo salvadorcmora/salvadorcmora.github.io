@@ -11,6 +11,11 @@ body {
   background: #0d1117; 
   color: #e6edf3; 
   padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* horizontal center */
+  text-align: center;    /* center text */
 }
 
 /* === Layout === */
