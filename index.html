@@ -3,10 +3,66 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Salvador Mora — Portfolio</title>
+  <title>[Your Name] — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6;margin:0;background:#0b0f14;color:#e8eef7}
+    header,section{max-width:900px;margin:auto;padding:24px}
+    header{padding-top:40px}
+    h1,h2{margin:0 0 8px}
+    .card{background:#121923;border:1px solid #1f2a37;border-radius:16px;padding:20px;margin:16px 0}
+    a{color:#7cc4ff}
+  </style>
 </head>
 <body>
-  <h1>Welcome to My Portfolio</h1>
-  <p>This is the landing page for my GT Movies Store project.</p>
+  <header>
+    <h1>[Your Name]</h1>
+    <p>CS student at Georgia Tech • Web & Software Development</p>
+    <p>Contact: <a href="mailto:you@example.com">you@example.com</a> • <a href="https://github.com/YOURUSERNAME">GitHub</a></p>
+  </header>
+
+  <section class="card">
+    <h2>1) Introduction</h2>
+    <p>Hello! I’m [Your Name], a CS student at Georgia Tech focused on building user-friendly web apps and solid software. I enjoy front-end design, clean code, and shipping features that solve real problems.</p>
+  </section>
+
+  <section class="card">
+    <h2>2) GT Movies Store — Description</h2>
+    <p><strong>Overview:</strong> A movie catalog web app that lets users browse titles, view details, and simulate rent/purchase actions.</p>
+    <ul>
+      <li><strong>Homepage:</strong> welcoming header and navigation.</li>
+      <li><strong>Catalog:</strong> grid/list of movies with search/filter (title, genre, year).</li>
+      <li><strong>Details:</strong> synopsis, rating, release year, and CTA.</li>
+      <li><strong>Checkout:</strong> simple cart flow to demonstrate the purchase path.</li>
+    </ul>
+    <p><em>User stories are addressed</em> by enabling discoverability (browse/search), clear detail views, and an end-to-end purchase simulation.</p>
+    <!-- If the app is hosted elsewhere, link it: -->
+    <p>Live demo: <a href="https://your-app-host.example.com" target="_blank" rel="noopener">Open GT Movies Store</a></p>
+  </section>
+
+  <section class="card">
+    <h2>3) Process Description</h2>
+    <ol>
+      <li><strong>Planning:</strong> mapped screens to user stories and wrote a checklist.</li>
+      <li><strong>Design:</strong> wireframed layout and navigation; chose a simple style guide.</li>
+      <li><strong>Implementation:</strong> built incrementally (home → catalog → details → checkout).</li>
+      <li><strong>Testing & Debugging:</strong> verified each feature before moving on; used console/devtools and peer feedback.</li>
+      <li><strong>Refinement:</strong> polished responsiveness and accessibility, cleaned code and CSS.</li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2>4) Video Demonstration</h2>
+    <p>Watch the walkthrough of the app and features:</p>
+    <!-- Replace with your actual video link (YouTube/Loom/Drive) -->
+    <p><a href="https://youtu.be/YOUR_VIDEO_ID" target="_blank" rel="noopener">Demo Video Link</a></p>
+    <!-- Or embed YouTube -->
+    <!--
+    <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px">
+      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="GT Movies Store Demo"
+              allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"></iframe>
+    </div>
+    -->
+  </section>
 </body>
 </html>
