@@ -1,3 +1,4 @@
+/* === Global Reset === */
 * {
   margin: 0;
   padding: 0;
@@ -8,45 +9,48 @@
 body {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
-  background: #0d1117; 
-  color: #e6edf3; 
+  background: #0d1117;   /* dark background */
+  color: #e6edf3;        /* light text */
   padding: 20px;
 
   display: flex;
   flex-direction: column;
-  align-items: center;   /* horizontal center */
-  text-align: center;    /* center text */
+  align-items: center;   /* center horizontally */
+  text-align: center;    /* center all text */
 }
 
-/* === Layout === */
-header, section {
-  max-width: 900px;
+/* === Layout Containers === */
+header, section, .card {
+  width: 100%;
+  max-width: 800px;   /* keeps content from being too wide */
   margin: 20px auto;
   padding: 24px;
 }
 
+/* === Headings === */
 h1, h2, h3 {
   margin-bottom: 12px;
   font-weight: 600;
-  color: #58a6ff; 
+  color: #58a6ff; /* nice blue highlight */
 }
 
+/* === Text === */
 p, li {
   font-size: 1.05rem;
   margin-bottom: 10px;
 }
 
-
+/* === Cards === */
 .card {
   background: #161b22;
   border: 1px solid #30363d;
   border-radius: 12px;
   padding: 20px;
-  margin: 20px 0;
+  margin: 20px auto;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-
+/* === Links === */
 a {
   color: #79c0ff;
   text-decoration: none;
@@ -58,24 +62,27 @@ a:hover {
   text-decoration: underline;
 }
 
-
+/* === Lists (centered but bullets aligned neatly) === */
 ul, ol {
-  margin-left: 20px;
-  margin-top: 10px;
+  display: inline-block; /* centers the list block */
+  text-align: left;      /* keeps bullet points aligned */
+  margin: 10px auto;
 }
 
 li {
   margin-bottom: 6px;
 }
 
-
+/* === Responsive Video Embed === */
 .video-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%; /* 16:9 ratio */
   height: 0;
   overflow: hidden;
   border-radius: 12px;
-  margin-top: 12px;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 720px;
 }
 
 .video-container iframe {
@@ -87,7 +94,7 @@ li {
   border: 0;
 }
 
-
+/* === Footer === */
 footer {
   text-align: center;
   padding: 20px;
