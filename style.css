@@ -9,7 +9,7 @@
 body {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
-  background: #0d1117;   /* dark background */
+  background: blue;   /* dark background */
   color: #e6edf3;        /* light text */
   padding: 20px;
 
