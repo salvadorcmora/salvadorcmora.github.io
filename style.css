@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Body Styles === */
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  background: #0d1117; 
+  color: #e6edf3; 
+  padding: 20px;
+}
+
+/* === Layout === */
+header, section {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 24px;
+}
+
+h1, h2, h3 {
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: #58a6ff; 
+}
+
+p, li {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+
+
+.card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
+a {
+  color: #79c0ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #1f6feb;
+  text-decoration: underline;
+}
+
+
+ul, ol {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-top: 12px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #8b949e;
+}
