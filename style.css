@@ -22,7 +22,7 @@ body {
 /* === Layout Containers === */
 header, section, .card {
   width: 100%;
-  max-width: 800px;   /* keeps content from being too wide */
+  max-width: 1200px;   /* keeps content from being too wide */
   margin: 20px auto;
   padding: 24px;
 }
@@ -37,7 +37,7 @@ h1, h2, h3 {
 /* === Text === */
 p, li {
   font-size: 1.05rem;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 /* === Cards === */
@@ -45,7 +45,7 @@ p, li {
   background: #161b22;
   border: 1px solid #30363d;
   border-radius: 12px;
-  padding: 20px;
+  padding: 12px 16px;
   margin: 20px auto;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
