@@ -22,7 +22,7 @@ body {
 /* === Layout Containers === */
 header, section, .card {
   width: 100%;
-  max-width: 1200px;   /* keeps content from being too wide */
+  max-width: 8000px;   /* keeps content from being too wide */
   margin: 20px auto;
   padding: 24px;
 }
